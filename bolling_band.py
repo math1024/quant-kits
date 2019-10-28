@@ -27,7 +27,7 @@ if __name__ == '__main__':
     data = pd.DataFrame(data)
     print(data.head(10))
 
-    # Compute the Bollinger Bands for NIFTY using the 50-day Moving average
+    # Compute the Bollinger Bands for AAPL using the 50-day Moving average
     n = 50
     apple_bollinger_bands = bolling_bands(data, n)
     print(apple_bollinger_bands)
